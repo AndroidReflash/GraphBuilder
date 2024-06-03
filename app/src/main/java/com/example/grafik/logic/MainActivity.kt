@@ -23,7 +23,6 @@ class MainActivity : ComponentActivity() {
                 englishConstants
             }
             Navigation(edit, constants) //shows content of main screen
-
         }
     }
 }

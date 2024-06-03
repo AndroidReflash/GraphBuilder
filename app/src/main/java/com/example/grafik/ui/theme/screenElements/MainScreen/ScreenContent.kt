@@ -60,6 +60,7 @@ fun ScreenContent(
             }
             val empty = emptyList<Category>()
             if(dataList == empty && emptyRealm.value){
+                //loading data from the Realm
                 Loading()
                 LaunchedEffect(Unit) {
                     //empty is needed to prevent rebuild after each recomposition

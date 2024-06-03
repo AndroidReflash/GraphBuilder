@@ -26,7 +26,6 @@ class MainViewModel : ViewModel() {
 
     //needed to take data from the Realm
     private suspend fun formDataRealmList(): Flow<List<DataRealm>> {
-        Log.d("MyLogLaunchRealm", "Realm")
         return withContext(Dispatchers.IO){
             realm.query<DataRealm>().asFlow().map {
                 it.list.toList()

@@ -21,6 +21,7 @@ class MainViewModel : ViewModel() {
     private val realm = MyApp.realm
 
     //realm data for graphs
+    //each category in realm
     val dataRealm = DataRealm()
 
 

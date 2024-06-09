@@ -12,9 +12,6 @@ var dataList : List<Category> = emptyList()
 //gives the possibility to get category (used in GraphLogic for chooseCategory function)
 var categoryChoice: Category? = null
 
-var rusBorderSize = 0
-var engBorderSize = 0
-
 //the biggest length of name of category
 const val nameSize = 25
 
